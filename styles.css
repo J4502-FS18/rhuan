@@ -33,11 +33,11 @@ ul{
   padding:0;
 }
 
-nav {
+#nav {
   padding:0;
 }
 
-nav li{
+#nav li{
   list-style:none;
   text-align:center;
   width:98%;
@@ -47,14 +47,14 @@ nav li{
   border-bottom:2px solid #ffffff;
 }
 
-nav a:link, nav a:visited{
+#nav a:link, #nav a:visited{
   color:#ffffff;
   text-decoration:none;
   font-family: 'Roboto', sans-serif;
   padding:4px;
 }
 
-nav li:hover, nav li:active{
+#nav li:hover, #nav li:active{
   background-color: #BD3459;
 }
 

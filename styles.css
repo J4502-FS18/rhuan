@@ -9,6 +9,7 @@
   width:90%;
   margin:0 auto;
   padding:10px;
+  text-align: center;
 }
 
 #footer{
@@ -22,7 +23,7 @@
 h2{
   font-family: 'Playfair Display', serif;
   font-size: 2.3em;
-  margin:10px;
+  margin:30px;
 }
 
 p{
@@ -45,8 +46,7 @@ ul{
   width:98%;
   padding:5px;
   background-color: #2F79A6;
-  margin:0 auto;
-  border-bottom:2px solid #ffffff;
+  margin:1px;
 }
 
 #nav a:link, #nav a:visited{
@@ -77,4 +77,23 @@ img{
 
 #footer a:hover, #footer a:active{
   color:#D9BE67;
+}
+
+.flexbox{
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 700px) {
+	.flexbox{
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
 }

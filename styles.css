@@ -32,15 +32,12 @@ p{
   margin:25px 10px;
 }
 
-ul{
-  padding:0;
-}
 
 #nav {
   padding:0;
 }
 
-#nav li{
+#nav .item{
   list-style:none;
   text-align:center;
   width:98%;
@@ -49,14 +46,14 @@ ul{
   margin:1px;
 }
 
-#nav a:link, #nav a:visited{
+.item a:link, .item a:visited{
   color:#ffffff;
   text-decoration:none;
   font-family: 'Roboto', sans-serif;
   padding:4px;
 }
 
-#nav li:hover, #nav li:active{
+#nav .item:hover, #nav .item:active{
   background-color: #BD3459;
 }
 
@@ -93,7 +90,7 @@ img{
 
 @media (min-width: 800px) {
 
-	.item-1 {
+	.item {
 		margin-right: auto;
 	}
 }

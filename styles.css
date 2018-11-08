@@ -1,3 +1,9 @@
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
 #header{
   background-image: url(img/profilephoto.jpg);
   height: 230px;
@@ -58,6 +64,7 @@ p{
   width:98%;
   padding:5px;
   margin:1px;
+
 }
 
 .item a:link, .item a:visited{
@@ -65,6 +72,7 @@ p{
   text-decoration:none;
   font-family: 'Roboto', sans-serif;
   padding:4px;
+
 }
 
 #nav .item:hover, #nav .item:active{
@@ -282,7 +290,7 @@ p{
     width:80%;
     float:left;
     padding:16px;
-    margin-top:100px; 
+    margin-top:100px;
   }
 
   .profilecontent {
@@ -316,4 +324,59 @@ p{
       grid-template-areas:
           "a b c";
     }
+}
+
+
+
+
+
+#nav .flexbox .item {
+    display: block;
+    border-top: 1px #79896d solid;
+}
+
+#nav a {
+    color: #f8ecc2;
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+
+
+#nav .flexbox {
+    display: none;
+}
+
+.menu-trigger a{
+  color: #f8ecc2;
+  display: block;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 700px){
+
+    #nav .flexbox {
+        display: flex;
+    }
+
+    #nav .flexbox .item {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    #nav {
+        order: 2;
+    }
+
 }

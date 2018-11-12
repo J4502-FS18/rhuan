@@ -7,6 +7,7 @@
 .menu-trigger img{
   margin-bottom:25px;
 }
+
 #header{
   background-image: url(img/profilephoto.jpg);
   height: 230px;
@@ -193,7 +194,7 @@ p{
     .display{
       float:left;
     }
-    
+
 
 
 }
